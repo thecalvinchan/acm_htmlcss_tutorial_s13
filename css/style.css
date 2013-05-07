@@ -1,0 +1,156 @@
+/**
+Author: Calvin Chan
+Organization: UCLA ACM
+Default stylesheet for HTML/CSS class. Spring 2013 
+**/
+
+html, body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+	background-image: url('../assets/white-noise.png');
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto 0 auto;
+}
+
+nav {
+	position: fixed;
+	width: 96%;
+	padding: 0 2% 10px 2%;
+	box-shadow: 0px 0px 10px #888;
+	height: 50px;
+	background-color: #fff;
+	z-index: 5;
+}
+
+nav h2 {
+	float: left;
+	line-height: 30px;
+}
+
+nav ul {
+	float: right;
+}
+
+nav li {
+	display: inline;
+	margin-left: 20px;
+	line-height: 35px;
+}
+
+header {
+	margin-bottom: -100px;
+}
+
+#cover {
+	width: 880px;
+	margin-left: 30px;
+	border: 10px solid #fff;
+	box-shadow: 0 0 20px #888;
+}
+
+#banner {
+	background-image: url('../assets/pink.png');
+	width: 300px;
+	height: 100px;
+	padding: 10px 30px;
+	position: relative;
+	top: -160px;
+	box-shadow: 10px 5px 20px #000;
+}
+
+#banner:before {
+	content: "";
+	position: absolute;
+	border-bottom: 30px solid #802141;
+	border-left: 30px solid transparent;
+	margin: -40px 0 0 -30px;
+}
+
+#banner h1, #contact_banner h1 {
+	margin: 30px 0 0 0;
+	color: #fff;
+	text-shadow: 0px 0px 25px #000;
+}
+
+#banner h3, #contact_banner h3 {
+	line-height: 5px;
+	color: #fff;
+	text-shadow: 0px 0px 25px #000;
+}
+
+#contact_banner {
+	background-image: url('../assets/pink.png');
+	width: 250px;
+	margin: 40px 0 0 0;
+	padding: 10px 30px;
+	clear: right;
+	float: right;
+	position: relative;
+	box-shadow: 10px 5px 20px #000;
+	position: relative;
+	z-index: 4;
+}
+
+#contact_banner:before {
+	content: "";
+	position: absolute;
+	right: 0;
+	border-bottom: 20px solid #802141;
+	border-right: 30px solid transparent;
+	margin: -30px 0 0 -30px;
+}
+
+aside {
+	margin: 25px 30px 50px 0;
+	position: relative;
+	top: -130px;
+	clear: right;
+	float: right;
+	width: 270px;
+	background-color: #fff;
+	padding: 120px 20px 20px 20px;
+	box-shadow: 0 0 20px #888;
+	z-index: 3;
+}
+
+aside dt {
+	font-size: 1.17em;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
+section {
+	margin: 40px 0 50px 0;
+	width: 590px;
+}
+
+section h1 {
+	color: transparent;
+	text-shadow: 0px -1px 0 rgba(170,170,170,0.9);
+}
+
+article {
+	margin: 25px 0;
+}
+
+article h2, article h3, article p{
+	margin: 0;
+}
+
+#portfolio {
+	clear: right;
+	width: 100%;
+}
+
+footer {
+	background-color: gray;
+	padding: 5px 0;
+}
