@@ -148,7 +148,6 @@ section {
 	background-color: #fff;
 	box-shadow: 0 0 20px #888;
 	z-index: 3;
-	clear: left;
 	float: left;
 }
 
@@ -169,9 +168,9 @@ article h2, article h3, article p{
 	margin: 0;
 }
 
-#portfolio {
+#about, #portfolio {
 	margin-bottom: 20px;
-	clear: right;
+	float: left;
 	width: 920px;
 }
 
